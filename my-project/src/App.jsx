@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect, useRef } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
   const [number, setNumber] = useState(false);
   const [length, setlength] = useState(0)
   const [character, setcharacter] = useState(false);
